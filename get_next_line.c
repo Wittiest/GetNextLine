@@ -72,7 +72,7 @@ int		new(int fd, char **line, char *my_line)
 }
 /*
 **	When our program runs and opens files, there will be less open than 4864.
-**
+**	(ulimit -n)
 **	By using a static variable that will last until our program ends, we can see
 **	which files have been read before, allowing us to continue reading after
 **	having switched to a new file.

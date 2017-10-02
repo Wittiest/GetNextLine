@@ -10,10 +10,6 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-/*
-**	Using ulimit -n, I learn that we should not go above 4864 file descriptors
-*/
-
 #ifndef GET_NEXT_LINE_H
 
 # define GET_NEXT_LINE_H
