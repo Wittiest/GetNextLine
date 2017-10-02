@@ -11,14 +11,14 @@
 /* ************************************************************************** */
 
 /*
-**	Using ulimit -n, I reach the assumption that we will not go above 4864 fds.
+**	Using ulimit -n, I learn that we should not go above 4864 file descriptors
 */
 
 #ifndef GET_NEXT_LINE_H
 
 # define GET_NEXT_LINE_H
-# define BUFF_SIZE 32
-# define FD_MAX 4864
+# define BUFF_SIZE 2
+
 #include "libft.h"
 #include <sys/types.h>
 #include <sys/uio.h>
