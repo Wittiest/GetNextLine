@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   libft.h                                            :+:      :+:    :+:   */
+/*   get_next_line.h                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: asyed <asyed@student.42.fr>                +#+  +:+       +#+        */
+/*   By: dpearson <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2017/09/18 12:26:21 by dpearson          #+#    #+#             */
-/*   Updated: 2017/09/27 15:27:26 by asyed            ###   ########.fr       */
+/*   Created: 2017/09/30 17:20:41 by dpearson          #+#    #+#             */
+/*   Updated: 2017/09/30 17:20:42 by dpearson         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -76,6 +76,8 @@ int					ft_iseven(int nbr);
 int					ft_average(int nbr1, int nbr2);
 int					ft_islower(int c);
 int					ft_isupper(int c);
+char				*ft_strcdup(const char *s1, int c);
+char				*ft_strndup(const char *s1, size_t n);
 
 typedef struct		s_list
 {
