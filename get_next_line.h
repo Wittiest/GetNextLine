@@ -19,7 +19,6 @@
 # include <unistd.h>
 # include <stdlib.h>
 
-# define GET_NEXT_LINE_H
 # define BUFF_SIZE 5
 # define READ(R, B, S, F) if ((R = read(F, B, S)) == -1){free(B); return (-1);}
 # define SAFEMALLOC(X) if (!X) {return (-1);}
